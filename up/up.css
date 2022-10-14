@@ -1,5 +1,5 @@
 body{
-    background-color: #8e92c1;
+    background-color: #FDFDBD;
 }
 .upBanner{
     height: 300px;
@@ -120,3 +120,6 @@ body{
     opacity:0.3;
     pointer-events:none;
   }
+.upBottomBanner{
+    padding-bottom: 2px;
+}
