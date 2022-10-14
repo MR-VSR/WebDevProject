@@ -1,3 +1,6 @@
+body{
+    background-color: rgba(214,214,185,0.5);
+}
 .mainImageContainer{
     margin: 0;
 }
@@ -98,4 +101,26 @@
 }
 #four{
     background: url("../Images/desert.jpg");
+}
+.imageCardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.imageCards{
+    box-shadow: -10px -10px 15px rgba(214,214,185,0.5),
+    8px 8px 25px rgba(0,0,0,0.5);
+    border: 1px solid #fff ;
+    border-radius: 16px;
+    background-color: #fefee4;
+}
+.imageCardsDescription{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    justify-items: center;
+    padding: 5px;
+    padding-top: 10px;
+    text-align: center;
+
 }
