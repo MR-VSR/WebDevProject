@@ -32,10 +32,10 @@
 }
 .listItems a:hover{
     text-decoration: underline;
-    text-decoration-color: #45bbda;
+    text-decoration-color: #937DC2;
     text-decoration-thickness: 5px;
-    transition: all 0.1s ease-in;
-    color: #45bbda;
+    transition: all 0.2s ease-in;
+    color: #937DC2;
     cursor:crosshair;
 }
 

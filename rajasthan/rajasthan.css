@@ -18,6 +18,7 @@ body{
     font-weight: 800;
     font-family: 'Sofia', sans-serif;
     color: #FF731D;
+    padding: 16px 0;
 }
 .description{
     padding-top: 8px;
@@ -122,5 +123,21 @@ body{
     padding: 5px;
     padding-top: 10px;
     text-align: center;
-
+}
+.rajGreet{
+    height: 90px;
+    width: 100px;
+    position: relative;
+    top: 20px;
+    right: 15px;
+    border-radius: 5px;
+}
+.special{
+    position: relative;
+    top: -10px;
+}
+.rajBottomBannerImage{
+    width: 100vw;
+    height: 300px;
+    padding-top: 16px;
 }
