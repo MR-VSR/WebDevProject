@@ -1,0 +1,199 @@
+/* css for the navbar  */
+
+.Navbar{
+    height: 60px;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    background: #E4e4e4;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    z-index: 3;
+}
+.list{
+    display: flex;
+    flex-direction: wrap;
+    list-style: none;
+    float: right;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.listItems{
+    padding-right: 25px;
+    padding-top: 12px;
+    font-weight: 700;
+}
+.listItems a{
+  color: #111;
+  text-decoration: none;
+}
+.listItems a:hover{
+    text-decoration: underline;
+    text-decoration-color: #45bbda;
+    text-decoration-thickness: 5px;
+    transition: all 0.1s ease-in;
+    color: #45bbda;
+    cursor:crosshair;
+}
+
+/* css for the MeetOurTeam section  */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainContainer{
+  background: #FAF7F0;
+  width: 100vw;
+  height: 315px;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  
+}
+.mainContainer .heading{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.container {
+  backdrop-filter: blur( 4.5px );
+  -webkit-backdrop-filter: blur( 4.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+}
+
+.container .box {
+  position: relative;
+  width: 150px;
+  height: 200px;
+  margin: 25px;
+}
+
+.container .box:hover .imgBox {
+  transform: translate(-30px,-30px);
+}
+
+.container .box:hover .content {
+  transform: translate(30px,30px);
+}
+
+.imgBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+  background-color: #FAF7F0;
+  border-radius: 10px;
+}
+
+.imgBox img {
+  border-radius: 10px;
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  resize: both;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  align-items: flex-end;
+  text-align: center;
+  transition: 0.5s ease-in-out;
+}
+
+.content h2 {
+  display: block;
+  font-size: 18px;
+  color: #111;
+  font-weight: 500;
+}
+
+.content span {
+  color: #555;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* css for the about section on the home page  */
+
+.homeContainer{
+  margin:0;
+  background-color: #FAF7F0;
+
+}
+.heading{
+  text-align: center;
+  font-size: xx-large;
+  color: #45bbda;
+  font-weight: 900;
+}
+.img{
+  width: 100vw;
+}
+.homeDescription{
+  font-size: larger;
+  line-height: 35px;
+  font: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 5px;
+  justify-content: left;
+}
+.image{
+  height: 350px;
+  width: 300px;
+  border-radius: 40px;
+}
+.imageContainer{
+  display: flex;
+}
+.text{
+  text-align: center;
+  color: #45bbda;
+}
+.collegeName{
+  font-weight: 700;
+  text-decoration: underline;
+}
+.administrationBlock{
+  float: left;
+  padding: 10px;
+}
+.descriptionText{
+  float: right;
+  font-size: large;
+  font-weight: 800;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 15px;
+  position: relative;
+  top: 50px;
+}
+.descriptionTextdj{
+  float: right;
+  font-size: large;
+  font-weight: 800;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
